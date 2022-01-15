@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		98DF9FEF2792BF0800DD8CB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF9FEE2792BF0800DD8CB5 /* AppDelegate.swift */; };
 		98DF9FF12792BF0800DD8CB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF9FF02792BF0800DD8CB5 /* SceneDelegate.swift */; };
-		98DF9FF32792BF0800DD8CB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF9FF22792BF0800DD8CB5 /* ViewController.swift */; };
 		98DF9FF62792BF0800DD8CB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98DF9FF42792BF0800DD8CB5 /* Main.storyboard */; };
 		98DF9FF82792BF0A00DD8CB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98DF9FF72792BF0A00DD8CB5 /* Assets.xcassets */; };
 		98DF9FFB2792BF0A00DD8CB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98DF9FF92792BF0A00DD8CB5 /* LaunchScreen.storyboard */; };
+		98DFA0032792C46900DD8CB5 /* Cosmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DFA0022792C46900DD8CB5 /* Cosmetic.swift */; };
+		98DFA0052792C48D00DD8CB5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DFA0042792C48D00DD8CB5 /* NetworkManager.swift */; };
+		98DFA0072792CF1800DD8CB5 /* MainCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DFA0062792CF1800DD8CB5 /* MainCollectionViewController.swift */; };
+		98DFA00B2792CFB600DD8CB5 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DFA00A2792CFB600DD8CB5 /* CategoryCell.swift */; };
+		98DFA00D2792E6A600DD8CB5 /* LipstickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DFA00C2792E6A600DD8CB5 /* LipstickViewController.swift */; };
+		98DFA00F2792E6E000DD8CB5 /* EyeshadowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DFA00E2792E6E000DD8CB5 /* EyeshadowViewController.swift */; };
+		98DFA0152792EB8C00DD8CB5 /* EyeshadowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DFA0142792EB8C00DD8CB5 /* EyeshadowCell.swift */; };
+		98DFA0172792EBC600DD8CB5 /* LipstickCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DFA0162792EBC600DD8CB5 /* LipstickCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		98DF9FEB2792BF0800DD8CB5 /* AppWithNetworkData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppWithNetworkData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98DF9FEE2792BF0800DD8CB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98DF9FF02792BF0800DD8CB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		98DF9FF22792BF0800DD8CB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		98DF9FF52792BF0800DD8CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98DF9FF72792BF0A00DD8CB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98DF9FFA2792BF0A00DD8CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98DF9FFC2792BF0A00DD8CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98DFA0022792C46900DD8CB5 /* Cosmetic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cosmetic.swift; sourceTree = "<group>"; };
+		98DFA0042792C48D00DD8CB5 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		98DFA0062792CF1800DD8CB5 /* MainCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewController.swift; sourceTree = "<group>"; };
+		98DFA00A2792CFB600DD8CB5 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		98DFA00C2792E6A600DD8CB5 /* LipstickViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LipstickViewController.swift; sourceTree = "<group>"; };
+		98DFA00E2792E6E000DD8CB5 /* EyeshadowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeshadowViewController.swift; sourceTree = "<group>"; };
+		98DFA0142792EB8C00DD8CB5 /* EyeshadowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeshadowCell.swift; sourceTree = "<group>"; };
+		98DFA0162792EBC600DD8CB5 /* LipstickCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LipstickCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,54 @@
 		98DF9FED2792BF0800DD8CB5 /* AppWithNetworkData */ = {
 			isa = PBXGroup;
 			children = (
+				98DFA0132792E71000DD8CB5 /* StoryBoards */,
 				98DF9FEE2792BF0800DD8CB5 /* AppDelegate.swift */,
 				98DF9FF02792BF0800DD8CB5 /* SceneDelegate.swift */,
-				98DF9FF22792BF0800DD8CB5 /* ViewController.swift */,
-				98DF9FF42792BF0800DD8CB5 /* Main.storyboard */,
+				98DFA0102792E6E600DD8CB5 /* ViewControllers */,
+				98DFA0112792E6FB00DD8CB5 /* Models */,
+				98DFA0122792E70600DD8CB5 /* Services */,
 				98DF9FF72792BF0A00DD8CB5 /* Assets.xcassets */,
-				98DF9FF92792BF0A00DD8CB5 /* LaunchScreen.storyboard */,
 				98DF9FFC2792BF0A00DD8CB5 /* Info.plist */,
 			);
 			path = AppWithNetworkData;
+			sourceTree = "<group>";
+		};
+		98DFA0102792E6E600DD8CB5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				98DFA0062792CF1800DD8CB5 /* MainCollectionViewController.swift */,
+				98DFA00A2792CFB600DD8CB5 /* CategoryCell.swift */,
+				98DFA00E2792E6E000DD8CB5 /* EyeshadowViewController.swift */,
+				98DFA0142792EB8C00DD8CB5 /* EyeshadowCell.swift */,
+				98DFA00C2792E6A600DD8CB5 /* LipstickViewController.swift */,
+				98DFA0162792EBC600DD8CB5 /* LipstickCell.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		98DFA0112792E6FB00DD8CB5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				98DFA0022792C46900DD8CB5 /* Cosmetic.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		98DFA0122792E70600DD8CB5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				98DFA0042792C48D00DD8CB5 /* NetworkManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		98DFA0132792E71000DD8CB5 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				98DF9FF42792BF0800DD8CB5 /* Main.storyboard */,
+				98DF9FF92792BF0A00DD8CB5 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +191,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98DF9FF32792BF0800DD8CB5 /* ViewController.swift in Sources */,
+				98DFA0152792EB8C00DD8CB5 /* EyeshadowCell.swift in Sources */,
+				98DFA00F2792E6E000DD8CB5 /* EyeshadowViewController.swift in Sources */,
+				98DFA00D2792E6A600DD8CB5 /* LipstickViewController.swift in Sources */,
+				98DFA0032792C46900DD8CB5 /* Cosmetic.swift in Sources */,
+				98DFA0072792CF1800DD8CB5 /* MainCollectionViewController.swift in Sources */,
+				98DFA0052792C48D00DD8CB5 /* NetworkManager.swift in Sources */,
+				98DFA0172792EBC600DD8CB5 /* LipstickCell.swift in Sources */,
 				98DF9FEF2792BF0800DD8CB5 /* AppDelegate.swift in Sources */,
 				98DF9FF12792BF0800DD8CB5 /* SceneDelegate.swift in Sources */,
+				98DFA00B2792CFB600DD8CB5 /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +366,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -334,7 +394,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
