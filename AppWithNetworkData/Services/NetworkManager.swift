@@ -10,8 +10,8 @@ import Foundation
 class CosmeticsData {
     static let shared = CosmeticsData()
     
-    let eyeShadowJSON = "http://makeup-api.herokuapp.com/api/v1/products.json?product_type=eyeshadow"
-    let lipstickJSON = "http://makeup-api.herokuapp.com/api/v1/products.json?product_type=lipstick"
+    let eyeShadowJSON = "http://makeup-api.herokuapp.com/api/v1/products.json?product_type=blush"
+    let lipstickJSON = "http://makeup-api.herokuapp.com/api/v1/products.json?product_tags=Natural&product_type=lipstick"
     
     private init() {}
 }
