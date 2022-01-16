@@ -402,7 +402,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zrQ-ll-nP2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2585" y="-941"/>
+            <point key="canvasLocation" x="2629" y="-352"/>
         </scene>
         <!--Lipstick Info View Controller-->
         <scene sceneID="CoL-V0-ha6">
@@ -517,7 +517,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uwt-iH-0j2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2629.5999999999999" y="558.62068965517244"/>
+            <point key="canvasLocation" x="2708" y="575"/>
         </scene>
     </scenes>
     <resources>

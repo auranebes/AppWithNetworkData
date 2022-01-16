@@ -5,7 +5,7 @@
 //  Created by Arslan Abdullaev on 15.01.2022.
 //
 
-import Foundation
+import UIKit
 
 class CosmeticsData {
     static let shared = CosmeticsData()

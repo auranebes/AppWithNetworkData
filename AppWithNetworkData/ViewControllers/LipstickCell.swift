@@ -14,17 +14,12 @@ class LipstickCell: UITableViewCell {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var imageLipstick: UIImageView!
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        activity.hidesWhenStopped
-        activity.startAnimating()
-        
-    }
-    
     func configureCell(with lipstick: Cosmetic.Lipstick) {
         nameLabel.text = lipstick.name
         brandLabel.text = lipstick.brand
-        priceLabel.text = lipstick.price
+        priceLabel.text = "\(lipstick.price ?? "")\(lipstick.price_sign ?? "")"
+        activity.hidesWhenStopped = true
+        self.activity.startAnimating()
         
         DispatchQueue.global().async {
             guard let url = URL(string: "https:\(lipstick.api_featured_image ?? "")" ) else { return }
