@@ -20,7 +20,8 @@
 		98DFA00F2792E6E000DD8CB5 /* EyeshadowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DFA00E2792E6E000DD8CB5 /* EyeshadowViewController.swift */; };
 		98DFA0152792EB8C00DD8CB5 /* EyeshadowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DFA0142792EB8C00DD8CB5 /* EyeshadowCell.swift */; };
 		98DFA0172792EBC600DD8CB5 /* LipstickCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DFA0162792EBC600DD8CB5 /* LipstickCell.swift */; };
-		98DFA01B2794A7DA00DD8CB5 /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DFA01A2794A7DA00DD8CB5 /* DescriptionViewController.swift */; };
+		98DFA01B2794A7DA00DD8CB5 /* LipstickInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DFA01A2794A7DA00DD8CB5 /* LipstickInfoViewController.swift */; };
+		98DFA01D2794BF0600DD8CB5 /* EyeshadowInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DFA01C2794BF0600DD8CB5 /* EyeshadowInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +40,8 @@
 		98DFA00E2792E6E000DD8CB5 /* EyeshadowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeshadowViewController.swift; sourceTree = "<group>"; };
 		98DFA0142792EB8C00DD8CB5 /* EyeshadowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeshadowCell.swift; sourceTree = "<group>"; };
 		98DFA0162792EBC600DD8CB5 /* LipstickCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LipstickCell.swift; sourceTree = "<group>"; };
-		98DFA01A2794A7DA00DD8CB5 /* DescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
+		98DFA01A2794A7DA00DD8CB5 /* LipstickInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LipstickInfoViewController.swift; sourceTree = "<group>"; };
+		98DFA01C2794BF0600DD8CB5 /* EyeshadowInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeshadowInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,9 +93,10 @@
 				98DFA00A2792CFB600DD8CB5 /* CategoryCell.swift */,
 				98DFA00E2792E6E000DD8CB5 /* EyeshadowViewController.swift */,
 				98DFA0142792EB8C00DD8CB5 /* EyeshadowCell.swift */,
+				98DFA01C2794BF0600DD8CB5 /* EyeshadowInfoViewController.swift */,
 				98DFA00C2792E6A600DD8CB5 /* LipstickViewController.swift */,
 				98DFA0162792EBC600DD8CB5 /* LipstickCell.swift */,
-				98DFA01A2794A7DA00DD8CB5 /* DescriptionViewController.swift */,
+				98DFA01A2794A7DA00DD8CB5 /* LipstickInfoViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -198,11 +201,12 @@
 				98DFA00F2792E6E000DD8CB5 /* EyeshadowViewController.swift in Sources */,
 				98DFA00D2792E6A600DD8CB5 /* LipstickViewController.swift in Sources */,
 				98DFA0032792C46900DD8CB5 /* Cosmetic.swift in Sources */,
+				98DFA01D2794BF0600DD8CB5 /* EyeshadowInfoViewController.swift in Sources */,
 				98DFA0072792CF1800DD8CB5 /* MainCollectionViewController.swift in Sources */,
 				98DFA0052792C48D00DD8CB5 /* NetworkManager.swift in Sources */,
 				98DFA0172792EBC600DD8CB5 /* LipstickCell.swift in Sources */,
 				98DF9FEF2792BF0800DD8CB5 /* AppDelegate.swift in Sources */,
-				98DFA01B2794A7DA00DD8CB5 /* DescriptionViewController.swift in Sources */,
+				98DFA01B2794A7DA00DD8CB5 /* LipstickInfoViewController.swift in Sources */,
 				98DF9FF12792BF0800DD8CB5 /* SceneDelegate.swift in Sources */,
 				98DFA00B2792CFB600DD8CB5 /* CategoryCell.swift in Sources */,
 			);

@@ -42,14 +42,12 @@ class EyeshadowViewController: UITableViewController {
     // MARK: - Navigation
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let descriptionVC = segue.destination as? DescriptionViewController else { return }
+        guard let descriptionVC = segue.destination as? EyeshadowInfoViewController else { return }
         descriptionVC.eyeshadow = sender as? Cosmetic.Eyeshadow
-        guard let item = sender as? Cosmetic.Eyeshadow else { return }
-        descriptionVC.configureUIEyeshadow(with: item)
     }
 
 }
-
+    // MARK: - Networking
 extension EyeshadowViewController {
     func fetchEyeshadows() {
         guard let url = URL(string: CosmeticsData.shared.eyeShadowJSON ) else { return }

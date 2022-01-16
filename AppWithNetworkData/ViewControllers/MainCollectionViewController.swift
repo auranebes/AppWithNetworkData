@@ -10,7 +10,7 @@ import UIKit
 private let reuseIdentifier = "categoryCell"
 
 class MainCollectionViewController: UICollectionViewController {
-    
+    // MARK: - Properties
     
     private let categories = UserAction.allCases
 

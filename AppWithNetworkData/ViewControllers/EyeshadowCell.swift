@@ -9,19 +9,16 @@ import UIKit
 
 class EyeshadowCell: UITableViewCell {
 
+    @IBOutlet weak var activity: UIActivityIndicatorView!
     @IBOutlet weak var priceLabel: UILabel!
     @IBOutlet weak var brandLabel: UILabel!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var imageEyeshadow: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+        activity.hidesWhenStopped
+        activity.startAnimating()
     }
     
     func configureCell(with eyeshadow: Cosmetic.Eyeshadow) {
@@ -37,6 +34,7 @@ class EyeshadowCell: UITableViewCell {
                 self.imageEyeshadow.image = UIImage(data: imageData)
             }
         }
+        activity.stopAnimating()
     }
 
 }

@@ -42,7 +42,7 @@ class LipstickViewController: UITableViewController {
     // MARK: - Navigation
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let descriptionVC = segue.destination as? DescriptionViewController else { return }
+        guard let descriptionVC = segue.destination as? LipstickInfoViewController else { return }
         descriptionVC.lipstick = sender as? Cosmetic.Lipstick
     }
 }
